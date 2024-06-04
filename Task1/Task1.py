@@ -1,11 +1,13 @@
+import sys
+
 arr = []
-n = int(input())
+n = int(sys.argv[1])
 
 for i in range(n):
     arr.append(i + 1)
 
 arr1 = []
-m = int(input())
+m = int(sys.argv[2])
 num = 0
 counter = 0
 
